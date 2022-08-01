@@ -28,7 +28,7 @@ body {
   }
   
   .header {
-    background-color: #7A4B4B;
+    background-color: #20332A;
     padding: 10px 0;
     margin-bottom: 40px;
   }
@@ -47,6 +47,11 @@ body {
     cursor: pointer;
   }
   
+  .header .container .logo img {
+    width: 200px;
+    padding: 30px 0 0 0;
+  }
+
   .header .container .form {
     width: 60%;
     display: flex;
@@ -71,9 +76,9 @@ body {
   }
   
   .btn {
-    background-color: #D7BABA;
+    background-color: #2BA86C;
     border: none;
-    color: #5A3D3D;
+    color: #13412B;
     font-weight: 700;
     padding: 10px 15px;
     font-size: 12px;
