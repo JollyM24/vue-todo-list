@@ -1,24 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
   }
   
   h2 {
+    font-family: 'Inter' sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: #20332A;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
     margin: 25px 0;
-    border-bottom: 1px solid #bfbfbf;
+    border-bottom: 1px solid #20332A;
   }
   
   h2 .mask-num {
-    border-radius: 20px;
-    border: 2px solid #2a2f36;
-    color: #2a2f36;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 5px 10px;
+    border-radius: 0;
+    border: 2px solid #20332A;
+    color: #20332A;
+    font-size: 32px;
+    font-weight: 300;
+    height: 38px;
+    width: 20px;
+    padding: 5px 15px;
   }
   
   .container {
@@ -29,8 +37,7 @@ body {
   
   .header {
     background-color: #20332A;
-    padding: 10px 0;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   
   .header .container {
@@ -40,11 +47,8 @@ body {
   }
   
   .header .container .logo {
-    width: 100px;
-    line-height: 50px;
-    color: #ddd;
+    width: 80px;
     font-size: 24px;
-    cursor: pointer;
   }
   
   .header .container .logo img {
@@ -62,6 +66,7 @@ body {
     width: calc(100% - 145px);
     height: 40px;
     text-indent: 10px;
+    color: rgba(30, 30, 30, 0.75);
     border: none;
     background-color: #FBFBFB;
     border-radius: 5px;
@@ -70,7 +75,7 @@ body {
     outline: none;
     transition: 0.2s border;
   }
-  
+
   .header .container .form input:focus {
     border: 1px solid #12c0dd;
   }
